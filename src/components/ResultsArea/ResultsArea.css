@@ -1,0 +1,15 @@
+.resultsContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.beforeSearchMessage {
+  margin-top: 100px;
+  color: #999;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.message{
+  margin-left: 20px;
+}

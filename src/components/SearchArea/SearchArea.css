@@ -1,0 +1,55 @@
+.pageTitle,
+.searchQuery,
+.crossButton,
+.searchButton{
+  font-family: 'Open Sans', serif;
+}
+
+.pageTitle {
+  color: #884080;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Open Sans', serif;
+}
+
+.searchQuery {
+  height: 40px;
+  width: 600px;
+  font-size: 18px;
+  color: #999;
+  padding-left: 10px;
+  border: none;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.12), 2px 2px 8px rgba(0,0,0,0.12);
+}
+
+.searchQuery:focus {
+  border: 1px lightblue solid;
+}
+
+.crossButton{
+  background: transparent;
+  border: none;
+  outline:none;
+  position: relative;
+  left: -30px;
+  font-size: 18px;
+  color: #4d5163;
+  cursor: pointer;
+}
+
+.searchButton {
+  cursor: pointer;
+  font-size: 15px;
+  background-color: #884080;
+  color: #fff;
+  outline: none;
+  border: transparent;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 2px;
+  position: relative;
+  left: -25px;
+  top:-1px;
+  font-family: 'Open Sans', serif;
+  margin-left: 5px;
+}
